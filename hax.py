@@ -36,8 +36,6 @@ for i in charlist:
 
 hexlist = list(set(hexfinnishlist))
 
-print(hexlist)
-
 #print(len(donehex))
 
 
@@ -51,7 +49,7 @@ print(hexlist)
 #c2c2d03030cef69e5ec27f7130207dd0
 #c2d07d3c5ed87430f67f20ce9e711307                   (len = 32)
 
-url = 'http://dart.cse.kau.se:12345/auth/200/alice/'
+url = 'http://dart.cse.kau.se:12345/auth/100/axelalvi/'
 
 #find first hex in tag that by checking which one gives back a response time
 temp_tag = ['00'] * 16
@@ -62,9 +60,9 @@ for hex in hexlist:
     tag_string = listtostring(temp_tag)
     print(tag_string)
     #response = requests.get(url + tag_string)
-    rsp_time = avg_rsp_time(url + tag_string, 1)#response.elapsed.total_seconds() * 1000
+    rsp_time = avg_rsp_time(url + tag_string, 10)#response.elapsed.total_seconds() * 1000
     print(rsp_time)
-    if(rsp_time > longest_rsp):
+    if(rsp_time > longest_rsp and rsp_time < 200):
         longest_rsp = rsp_time
         curr_first = hex
 print(curr_first)
