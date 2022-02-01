@@ -23,11 +23,24 @@ def avg_rsp_time(url, runs):
     return total / runs
 
 
-charlist = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q',
-            'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
+#charlist = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q',
+#            'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
+
+charlist = ['a', 'b', 'c', 'd', 'e', 'f', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
+
+hexfinnishlist = []
+
+for i in charlist:
+    for j in charlist:
+        hexfinnishlist.append(f"{i}{j}")
+
+hexlist = list(set(hexfinnishlist))
+
+#print(len(donehex))
 
 
-hexlist = ['c2', 'd0', '7d', '3c', '5e', 'd8', '74', '30', 'f6', '7f', '20', 'ce', '9e', '71', '13', '07']
+
+#hexlist = ['c2', 'd0', '7d', '3c', '5e', 'd8', '74', '30', 'f6', '7f', '20', 'ce', '9e', '71', '13', '07']
 #hexlist = ['02', '31', 'd4', '6f', '45', '5b', '0e', '61', 'c1', '59', '24', 'e9', 'da', '68', '6d']
 
 #0231d46f455b0e61c15924e9da02686d
@@ -36,7 +49,7 @@ hexlist = ['c2', 'd0', '7d', '3c', '5e', 'd8', '74', '30', 'f6', '7f', '20', 'ce
 #c2c2d03030cef69e5ec27f7130207dd0
 #c2d07d3c5ed87430f67f20ce9e711307                   (len = 32)
 
-url = 'http://dart.cse.kau.se:12345/auth/10/alice/'
+url = 'http://dart.cse.kau.se:12345/auth/200/alice/'
 
 #find first hex in tag that by checking which one gives back a response time
 temp_tag = ['00'] * 16
@@ -47,7 +60,7 @@ for hex in hexlist:
     tag_string = listtostring(temp_tag)
     print(tag_string)
     #response = requests.get(url + tag_string)
-    rsp_time = avg_rsp_time(url + tag_string, 10)#response.elapsed.total_seconds() * 1000
+    rsp_time = avg_rsp_time(url + tag_string, 1)#response.elapsed.total_seconds() * 1000
     print(rsp_time)
     if(rsp_time > longest_rsp):
         longest_rsp = rsp_time
