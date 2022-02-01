@@ -27,8 +27,8 @@ charlist = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
             'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
 
 
-#hexlist = ['c2', 'd0', '7d', '3c', '5e', 'd8', '74', '30', 'f6', '7f', '20', 'ce', '9e', '71', '13', '07']
-hexlist = ['02', '31', 'd4', '6f', '45', '5b', '0e', '61', 'c1', '59', '24', 'e9', 'da', '02', '68', '6d']
+hexlist = ['c2', 'd0', '7d', '3c', '5e', 'd8', '74', '30', 'f6', '7f', '20', 'ce', '9e', '71', '13', '07']
+#hexlist = ['02', '31', 'd4', '6f', '45', '5b', '0e', '61', 'c1', '59', '24', 'e9', 'da', '68', '6d']
 
 #0231d46f455b0e61c15924e9da02686d
 
@@ -36,22 +36,31 @@ hexlist = ['02', '31', 'd4', '6f', '45', '5b', '0e', '61', 'c1', '59', '24', 'e9
 #c2c2d03030cef69e5ec27f7130207dd0
 #c2d07d3c5ed87430f67f20ce9e711307                   (len = 32)
 
+url = 'http://dart.cse.kau.se:12345/auth/10/alice/'
 
-guessedtag = ['02'] * 16
-url = 'http://dart.cse.kau.se:12345/auth/200/alice/'
-<<<<<<< HEAD
-bestchar = '0'
+#find first hex in tag that by checking which one gives back a response time
+temp_tag = ['00'] * 16
+longest_rsp = -100
+curr_first = ""
+for hex in hexlist:
+    temp_tag[0] = hex
+    tag_string = listtostring(temp_tag)
+    print(tag_string)
+    #response = requests.get(url + tag_string)
+    rsp_time = avg_rsp_time(url + tag_string, 10)#response.elapsed.total_seconds() * 1000
+    print(rsp_time)
+    if(rsp_time > longest_rsp):
+        longest_rsp = rsp_time
+        curr_first = hex
+print(curr_first)
+#curr_first will now be the first hex in tag
+
+guessedtag = [curr_first] * 16
+
 for i in range(1,len(guessedtag)):
-=======
-
-
-for i in range(len(guessedtag)):
->>>>>>> eaca3e5842d599f7b74e21ee81b9427e9b516364
     current_longest = -100
     print(f"index {i}, guessedtag: {listtostring(guessedtag)}")
     avragetime = [0] * 10
-
-    bestchar = '0'
 
     for hex in hexlist:
         print(f"index {i} char: {hex} curr_long: {current_longest}")
