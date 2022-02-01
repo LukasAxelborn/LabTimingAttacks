@@ -866,4 +866,6 @@ Traceback (most recent call last):
   File "/usr/lib/python3/dist-packages/requests/adapters.py", line 516, in send
     raise ConnectionError(e, request=request)
 requests.exceptions.ConnectionError: HTTPConnectionPool(host='dart.cse.kau.se', port=12345): Max retries exceeded with url: /auth/100/axelalvi/d45ed4d4d4d4d4d4d4d4d4d4d4d4d4d4 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa9931f4640>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
-lukax@DESKTOP-L5QVCG1:/mnt/c/Users/lukas/OneDrive/Universitetet/Datorsäkerhet 2/lab/LabTimingAttacks$ 
+
+
+20 - avrage

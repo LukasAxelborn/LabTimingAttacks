@@ -82,7 +82,7 @@ for i in range(1, len(guessedtag)):
         print(f"index {i} char: {hex} curr_long: {current_longest}")
         guessedtag[i] = hex
         newtag = listtostring(guessedtag)
-        rq_time = avg_rsp_time((url + newtag), 20)
+        rq_time = avg_rsp_time((url + newtag), 5)
         print(rq_time)
         if(rq_time > current_longest):
             current_longest = rq_time
