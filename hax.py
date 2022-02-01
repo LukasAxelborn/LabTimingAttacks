@@ -39,10 +39,19 @@ hexlist = ['02', '31', 'd4', '6f', '45', '5b', '0e', '61', 'c1', '59', '24', 'e9
 
 guessedtag = ['02'] * 16
 url = 'http://dart.cse.kau.se:12345/auth/200/alice/'
+<<<<<<< HEAD
 bestchar = '0'
 for i in range(1,len(guessedtag)):
+=======
+
+
+for i in range(len(guessedtag)):
+>>>>>>> eaca3e5842d599f7b74e21ee81b9427e9b516364
     current_longest = -100
     print(f"index {i}, guessedtag: {listtostring(guessedtag)}")
+    avragetime = [0] * 10
+
+    bestchar = '0'
 
     for hex in hexlist:
         print(f"index {i} char: {hex} curr_long: {current_longest}")
