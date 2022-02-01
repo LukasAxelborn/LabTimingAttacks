@@ -23,6 +23,9 @@ def avg_rsp_time(url, runs):
     return total / runs
 
 
+print(requests.get("http://dart.cse.kau.se:12345/auth/200/alice/0231d46f455b0e61c15924e9da02686d"))
+
+
 #charlist = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q',
 #            'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
 
