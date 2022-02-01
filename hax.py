@@ -36,6 +36,8 @@ for i in charlist:
 
 hexlist = list(set(hexfinnishlist))
 
+print(hexlist)
+
 #print(len(donehex))
 
 
