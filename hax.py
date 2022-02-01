@@ -18,10 +18,14 @@ charlist = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
 
 guessedtag = [0] * 32
 url = 'http://dart.cse.kau.se:12345/auth/200/alice/'
-bestchar = '0'
+
+
 for i in range(len(guessedtag)):
     current_longest = -100
     print(f"index {i}, guessedtag: {listtostring(guessedtag)}")
+    avragetime = [0] * 10
+
+    bestchar = '0'
 
     for char in charlist:
         print(f"index {i} char: {char}")
