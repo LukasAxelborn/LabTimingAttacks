@@ -66,7 +66,7 @@ while(True):
     #curr_first will now be the first hex in tag
 
 
-    guessedtag = [curr_first] * 16
+    guessedtag = [curr_first] * 15
     besthex = ""
     wrong_guess = False
 
@@ -122,8 +122,15 @@ while(True):
         guessedtag[i] = besthex
         i += 1
 
-
-
+    #brute force last hex until response is 200
+    for i in range(len(hexlist)):
+        re = requests.get(url + listtostring(guessedtag) + hexlist[i])
+        print("Testing: " + url + listtostring(guessedtag) + hexlist[i])
+        if str(re) == "<Response [200]>":
+            print("OK! Correct: " + url + listtostring(guessedtag) + hexlist[i])
+            guessedtag.append(hexlist[i])
+            break
+    
     print(listtostring(guessedtag))
 
     re = requests.get(url + listtostring(guessedtag))
