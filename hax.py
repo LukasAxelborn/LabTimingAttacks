@@ -11,20 +11,18 @@ import requests
 def listtostring(s):
     return (''.join([str(elem) for elem in s]))
 
-#make multiple rq & return avg response time
-def avg_rsp_time(url, runs):
-    total = 0
+#make multiple rq & return min rsp time
+def min_rsp_time(url, runs):
+    min = 1000000000000
     for i in range(runs):
         #t0 = time.time()
         # make request
         response = requests.get(url)
         #t1 = time.time()
-        total += response.elapsed.total_seconds() * 1000
-    return total / runs
-
-
-
-
+        rsp_time = response.elapsed.total_seconds() * 1000
+        if rsp_time < min:
+            min = rsp_time
+    return min
 
 #charlist = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q',
 #            'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
@@ -32,8 +30,7 @@ def avg_rsp_time(url, runs):
 charlist = ['a', 'b', 'c', 'd', 'e', 'f', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
 #url = 'http://dart.cse.kau.se:12345/auth/100/axelalvi/'
 
-
-delay = 100
+delay = 99
 name = "axelalvi"
 
 url = "http://dart.cse.kau.se:12345/auth/" + str(delay) + "/" + name + "/"
@@ -58,7 +55,7 @@ while(True):
         tag_string = listtostring(temp_tag)
         print(tag_string)
         #response = requests.get(url + tag_string)
-        rsp_time = avg_rsp_time(url + tag_string, 1)#response.elapsed.total_seconds() * 1000
+        rsp_time = min_rsp_time(url + tag_string, 1)#response.elapsed.total_seconds() * 1000
         print(rsp_time)
         if(rsp_time > longest_rsp and rsp_time < (delay + general_rsp_time)):
             longest_rsp = rsp_time
@@ -73,10 +70,12 @@ while(True):
     besthex = ""
     wrong_guess = False
 
-    for i in range(1,len(guessedtag)):
+    i = 1
+    while i < len(guessedtag):
+    #for i in range(1,len(guessedtag)):
         #if rq_time is less than i * delay, we know we guessed wrong and want to try previous i again
         if wrong_guess is True:
-            if i < 2:
+            if i < 3:
                 break
             i -= 2
             wrong_guess = False
@@ -95,7 +94,7 @@ while(True):
             print(f"index {i} char: {hex} besthex: {besthex} curr_long: {current_longest}")
             guessedtag[i] = hex
             newtag = listtostring(guessedtag)
-            rq_time = avg_rsp_time((url + newtag), 1)
+            rq_time = min_rsp_time((url + newtag), 1)
             print(rq_time)
             if(rq_time < minimum_rsp_time):
                 wrong_guess = True
@@ -110,7 +109,7 @@ while(True):
                     temp_list = guessedtag
                     temp_list[i] = besthex
                     temp_list_string = listtostring(temp_list)
-                    temp_rq_time = avg_rsp_time((url + temp_list_string), 10)
+                    temp_rq_time = min_rsp_time((url + temp_list_string), 10)
                     next_min_rsp_time = (i + 1) * delay
                     next_max_rsp_time = ((i + 1) * delay) + delay
                     print(f"trying: {besthex} next_min: {next_min_rsp_time} temp_rq_time: {temp_rq_time} next_max: {next_max_rsp_time}")
@@ -121,6 +120,7 @@ while(True):
                         best_hex = ""
 
         guessedtag[i] = besthex
+        i += 1
 
 
 
