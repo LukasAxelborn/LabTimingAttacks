@@ -1,0 +1,1011 @@
+51000000000000000000000000000000
+62.2884
+07000000000000000000000000000000
+63.55449999999998
+71000000000000000000000000000000
+61.860400000000006
+79000000000000000000000000000000
+63.915200000000006
+3a000000000000000000000000000000
+64.23949999999999
+a7000000000000000000000000000000
+64.6691
+1d000000000000000000000000000000
+61.183299999999996
+8d000000000000000000000000000000
+65.7149
+8a000000000000000000000000000000
+66.1485
+59000000000000000000000000000000
+62.388099999999994
+00000000000000000000000000000000
+67.07549999999999
+2c000000000000000000000000000000
+272.562
+cd000000000000000000000000000000
+60.4591
+df000000000000000000000000000000
+62.842600000000004
+13000000000000000000000000000000
+63.22940000000001
+75000000000000000000000000000000
+63.490899999999996
+29000000000000000000000000000000
+61.5823
+c9000000000000000000000000000000
+61.6576
+ce000000000000000000000000000000
+62.2899
+5e000000000000000000000000000000
+60.429199999999994
+98000000000000000000000000000000
+63.78280000000001
+a3000000000000000000000000000000
+59.82370000000001
+2a000000000000000000000000000000
+61.764100000000006
+5c000000000000000000000000000000
+59.36049999999999
+f6000000000000000000000000000000
+63.1145
+96000000000000000000000000000000
+62.2308
+b4000000000000000000000000000000
+61.7053
+24000000000000000000000000000000
+61.452
+dc000000000000000000000000000000
+65.02420000000001
+c3000000000000000000000000000000
+63.9969
+d7000000000000000000000000000000
+61.913599999999995
+10000000000000000000000000000000
+65.0391
+5b000000000000000000000000000000
+58.978300000000004
+21000000000000000000000000000000
+60.70210000000001
+4b000000000000000000000000000000
+59.5218
+17000000000000000000000000000000
+82.4554
+f5000000000000000000000000000000
+57.6148
+fc000000000000000000000000000000
+57.81519999999999
+1e000000000000000000000000000000
+61.166999999999994
+0b000000000000000000000000000000
+60.41700000000001
+01000000000000000000000000000000
+57.231500000000004
+0e000000000000000000000000000000
+60.058800000000005
+de000000000000000000000000000000
+59.2192
+a9000000000000000000000000000000
+57.8347
+41000000000000000000000000000000
+162.0889
+f0000000000000000000000000000000
+60.60999999999999
+b0000000000000000000000000000000
+62.150999999999996
+2b
+index 1, guessedtag: 2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b
+index 1 char: 27 curr_long: -100
+61.8424
+index 1 char: 4d curr_long: 61.8424
+62.959799999999994
+index 1 char: aa curr_long: 62.959799999999994
+61.0102
+index 1 char: 40 curr_long: 62.959799999999994
+64.1512
+index 1 char: f2 curr_long: 64.1512
+64.002
+index 1 char: 48 curr_long: 64.1512
+64.3164
+index 1 char: 9a curr_long: 64.3164
+61.086400000000005
+index 1 char: e0 curr_long: 64.3164
+66.2486
+index 1 char: e4 curr_long: 66.2486
+60.3396
+index 1 char: 2d curr_long: 66.2486
+60.275
+index 1 char: 25 curr_long: 66.2486
+58.289199999999994
+index 1 char: 50 curr_long: 66.2486
+60.3292
+index 1 char: 3d curr_long: 66.2486
+57.89939999999999
+index 1 char: 61 curr_long: 66.2486
+57.955799999999996
+index 1 char: b2 curr_long: 66.2486
+57.446400000000004
+index 1 char: ad curr_long: 66.2486
+60.023399999999995
+index 1 char: db curr_long: 66.2486
+57.242399999999996
+index 1 char: 6a curr_long: 66.2486
+59.555600000000005
+index 1 char: bd curr_long: 66.2486
+91.63980000000001
+index 1 char: 73 curr_long: 91.63980000000001
+72.3402
+index 1 char: 82 curr_long: 91.63980000000001
+64.46439999999998
+index 1 char: 3c curr_long: 91.63980000000001
+58.367200000000004
+index 1 char: e6 curr_long: 91.63980000000001
+62.2068
+index 1 char: 5f curr_long: 91.63980000000001
+60.0028
+index 1 char: b7 curr_long: 91.63980000000001
+59.94879999999999
+index 1 char: cb curr_long: 91.63980000000001
+64.7156
+index 1 char: ac curr_long: 91.63980000000001
+61.526799999999994
+index 1 char: 72 curr_long: 91.63980000000001
+65.9522
+index 1 char: 78 curr_long: 91.63980000000001
+63.1262
+index 1 char: e9 curr_long: 91.63980000000001
+61.5168
+index 1 char: f7 curr_long: 91.63980000000001
+64.58739999999999
+index 1 char: 64 curr_long: 91.63980000000001
+66.9616
+index 1 char: 0f curr_long: 91.63980000000001
+66.3918
+index 1 char: 6b curr_long: 91.63980000000001
+86.1938
+index 1 char: 0c curr_long: 91.63980000000001
+73.85959999999999
+index 1 char: c8 curr_long: 91.63980000000001
+60.7418
+index 1 char: c7 curr_long: 91.63980000000001
+61.26700000000001
+index 1 char: f3 curr_long: 91.63980000000001
+64.1404
+index 1 char: 53 curr_long: 91.63980000000001
+315.1544
+index 1 char: 6f curr_long: 315.1544
+67.47
+index 1 char: a8 curr_long: 315.1544
+66.7972
+index 1 char: 92 curr_long: 315.1544
+71.14080000000001
+index 1 char: 31 curr_long: 315.1544
+70.15459999999999
+index 1 char: 6d curr_long: 315.1544
+64.26039999999999
+index 1 char: 1b curr_long: 315.1544
+71.6442
+index 1 char: 32 curr_long: 315.1544
+66.887
+index 1 char: d0 curr_long: 315.1544
+66.4448
+index 1 char: 65 curr_long: 315.1544
+68.6528
+index 1 char: d5 curr_long: 315.1544
+73.1874
+index 1 char: b3 curr_long: 315.1544
+60.675599999999996
+index 1 char: 35 curr_long: 315.1544
+62.247800000000005
+index 1 char: 39 curr_long: 315.1544
+66.93459999999999
+index 1 char: b1 curr_long: 315.1544
+63.187
+index 1 char: 95 curr_long: 315.1544
+64.4662
+index 1 char: a6 curr_long: 315.1544
+67.51379999999999
+index 1 char: 8c curr_long: 315.1544
+60.37819999999999
+index 1 char: 42 curr_long: 315.1544
+62.77940000000001
+index 1 char: 9b curr_long: 315.1544
+58.1696
+index 1 char: 89 curr_long: 315.1544
+61.062
+index 1 char: b5 curr_long: 315.1544
+61.3918
+index 1 char: c5 curr_long: 315.1544
+57.8418
+index 1 char: 87 curr_long: 315.1544
+60.614
+index 1 char: 7e curr_long: 315.1544
+66.756
+index 1 char: 97 curr_long: 315.1544
+70.04220000000001
+index 1 char: ed curr_long: 315.1544
+70.6576
+index 1 char: ff curr_long: 315.1544
+102.8896
+index 1 char: 2e curr_long: 315.1544
+61.7436
+index 1 char: a0 curr_long: 315.1544
+61.354600000000005
+index 1 char: d6 curr_long: 315.1544
+64.20559999999999
+index 1 char: 7f curr_long: 315.1544
+61.26399999999999
+index 1 char: d8 curr_long: 315.1544
+67.5838
+index 1 char: d4 curr_long: 315.1544
+62.4856
+index 1 char: 46 curr_long: 315.1544
+60.12519999999999
+index 1 char: 85 curr_long: 315.1544
+60.087
+index 1 char: 4f curr_long: 315.1544
+60.126599999999996
+index 1 char: 55 curr_long: 315.1544
+60.473
+index 1 char: eb curr_long: 315.1544
+62.864200000000004
+index 1 char: 6c curr_long: 315.1544
+61.224000000000004
+index 1 char: 69 curr_long: 315.1544
+69.04079999999999
+index 1 char: fd curr_long: 315.1544
+63.78060000000001
+index 1 char: ab curr_long: 315.1544
+66.884
+index 1 char: 84 curr_long: 315.1544
+114.4292
+index 1 char: 0d curr_long: 315.1544
+67.9432
+index 1 char: af curr_long: 315.1544
+60.7524
+index 1 char: 9e curr_long: 315.1544
+59.8682
+index 1 char: a1 curr_long: 315.1544
+62.4782
+index 1 char: 4a curr_long: 315.1544
+58.08
+index 1 char: 88 curr_long: 315.1544
+58.1568
+index 1 char: cc curr_long: 315.1544
+58.5714
+index 1 char: 38 curr_long: 315.1544
+60.08299999999999
+index 1 char: a2 curr_long: 315.1544
+59.686
+index 1 char: c4 curr_long: 315.1544
+57.85440000000001
+index 1 char: fe curr_long: 315.1544
+57.6028
+index 1 char: 43 curr_long: 315.1544
+55.918600000000005
+index 1 char: ec curr_long: 315.1544
+65.1082
+index 1 char: d2 curr_long: 315.1544
+59.463800000000006
+index 1 char: c0 curr_long: 315.1544
+62.35260000000001
+index 1 char: d9 curr_long: 315.1544
+60.18240000000001
+index 1 char: 56 curr_long: 315.1544
+57.6956
+index 1 char: 62 curr_long: 315.1544
+58.888200000000005
+index 1 char: 91 curr_long: 315.1544
+57.88340000000001
+index 1 char: 74 curr_long: 315.1544
+59.664
+index 1 char: 94 curr_long: 315.1544
+60.257799999999996
+index 1 char: c2 curr_long: 315.1544
+59.057399999999994
+index 1 char: bf curr_long: 315.1544
+60.0168
+index 1 char: f1 curr_long: 315.1544
+59.8092
+index 1 char: 22 curr_long: 315.1544
+63.735
+index 1 char: f8 curr_long: 315.1544
+59.443200000000004
+index 1 char: ca curr_long: 315.1544
+58.9972
+index 1 char: 2b curr_long: 315.1544
+64.54079999999999
+index 1 char: f9 curr_long: 315.1544
+56.40319999999999
+index 1 char: 83 curr_long: 315.1544
+61.9058
+index 1 char: 37 curr_long: 315.1544
+61.703599999999994
+index 1 char: 6e curr_long: 315.1544
+58.51120000000001
+index 1 char: 76 curr_long: 315.1544
+61.0616
+index 1 char: c1 curr_long: 315.1544
+67.602
+index 1 char: d1 curr_long: 315.1544
+71.55440000000002
+index 1 char: 28 curr_long: 315.1544
+64.98259999999999
+index 1 char: 77 curr_long: 315.1544
+61.6722
+index 1 char: 3b curr_long: 315.1544
+62.2374
+index 1 char: 9d curr_long: 315.1544
+57.7792
+index 1 char: 99 curr_long: 315.1544
+56.17660000000001
+index 1 char: 9c curr_long: 315.1544
+60.388
+index 1 char: a4 curr_long: 315.1544
+57.4702
+index 1 char: 1f curr_long: 315.1544
+60.987
+index 1 char: 66 curr_long: 315.1544
+59.6308
+index 1 char: ae curr_long: 315.1544
+61.1394
+index 1 char: ee curr_long: 315.1544
+61.265
+index 1 char: 93 curr_long: 315.1544
+63.8914
+index 1 char: 04 curr_long: 315.1544
+60.8338
+index 1 char: 3e curr_long: 315.1544
+59.1082
+index 1 char: 4e curr_long: 315.1544
+58.4314
+index 1 char: 3f curr_long: 315.1544
+62.327
+index 1 char: 5d curr_long: 315.1544
+62.485800000000005
+index 1 char: 15 curr_long: 315.1544
+58.36099999999999
+index 1 char: 05 curr_long: 315.1544
+56.678399999999996
+index 1 char: ea curr_long: 315.1544
+61.19839999999999
+index 1 char: 90 curr_long: 315.1544
+57.6552
+index 1 char: c6 curr_long: 315.1544
+59.8614
+index 1 char: 7b curr_long: 315.1544
+58.40419999999999
+index 1 char: fb curr_long: 315.1544
+62.1514
+index 1 char: 81 curr_long: 315.1544
+64.9816
+index 1 char: 57 curr_long: 315.1544
+62.188599999999994
+index 1 char: 08 curr_long: 315.1544
+67.5702
+index 1 char: b8 curr_long: 315.1544
+58.89359999999999
+index 1 char: e3 curr_long: 315.1544
+63.3972
+index 1 char: 68 curr_long: 315.1544
+66.7908
+index 1 char: 09 curr_long: 315.1544
+68.0288
+index 1 char: ba curr_long: 315.1544
+269.80420000000004
+index 1 char: 60 curr_long: 315.1544
+64.7576
+index 1 char: 63 curr_long: 315.1544
+61.916399999999996
+index 1 char: 2f curr_long: 315.1544
+60.74839999999999
+index 1 char: 67 curr_long: 315.1544
+60.8528
+index 1 char: e7 curr_long: 315.1544
+62.4692
+index 1 char: bc curr_long: 315.1544
+68.0926
+index 1 char: 52 curr_long: 315.1544
+66.5376
+index 1 char: 02 curr_long: 315.1544
+60.5194
+index 1 char: 26 curr_long: 315.1544
+64.3142
+index 1 char: 30 curr_long: 315.1544
+61.596199999999996
+index 1 char: da curr_long: 315.1544
+60.771800000000006
+index 1 char: e2 curr_long: 315.1544
+63.54200000000001
+index 1 char: 47 curr_long: 315.1544
+67.0818
+index 1 char: 19 curr_long: 315.1544
+65.1442
+index 1 char: 34 curr_long: 315.1544
+66.3546
+index 1 char: 16 curr_long: 315.1544
+64.51
+index 1 char: 7c curr_long: 315.1544
+61.06420000000001
+index 1 char: 7d curr_long: 315.1544
+60.166399999999996
+index 1 char: 8e curr_long: 315.1544
+62.13119999999999
+index 1 char: 36 curr_long: 315.1544
+59.451800000000006
+index 1 char: 49 curr_long: 315.1544
+63.3864
+index 1 char: 80 curr_long: 315.1544
+85.87379999999999
+index 1 char: a5 curr_long: 315.1544
+63.8174
+index 1 char: dd curr_long: 315.1544
+61.8698
+index 1 char: 11 curr_long: 315.1544
+63.029399999999995
+index 1 char: 06 curr_long: 315.1544
+58.8608
+index 1 char: b9 curr_long: 315.1544
+61.199400000000004
+index 1 char: 54 curr_long: 315.1544
+64.5606
+index 1 char: 0a curr_long: 315.1544
+64.35319999999999
+index 1 char: 20 curr_long: 315.1544
+59.4328
+index 1 char: 33 curr_long: 315.1544
+60.624199999999995
+index 1 char: e5 curr_long: 315.1544
+65.69120000000001
+index 1 char: 86 curr_long: 315.1544
+61.35020000000001
+index 1 char: 14 curr_long: 315.1544
+62.1524
+index 1 char: 70 curr_long: 315.1544
+62.35659999999999
+index 1 char: 1a curr_long: 315.1544
+61.1822
+index 1 char: 5a curr_long: 315.1544
+64.936
+index 1 char: 9f curr_long: 315.1544
+68.10839999999999
+index 1 char: 8b curr_long: 315.1544
+70.10679999999999
+index 1 char: bb curr_long: 315.1544
+64.63
+index 1 char: ef curr_long: 315.1544
+61.6582
+index 1 char: 8f curr_long: 315.1544
+56.4286
+index 1 char: 4c curr_long: 315.1544
+63.851
+index 1 char: 7a curr_long: 315.1544
+61.205000000000005
+index 1 char: e1 curr_long: 315.1544
+60.0206
+index 1 char: 23 curr_long: 315.1544
+63.5742
+index 1 char: be curr_long: 315.1544
+55.332200000000014
+index 1 char: d3 curr_long: 315.1544
+60.6764
+index 1 char: e8 curr_long: 315.1544
+57.6894
+index 1 char: 12 curr_long: 315.1544
+58.379
+index 1 char: 18 curr_long: 315.1544
+58.3566
+index 1 char: 44 curr_long: 315.1544
+58.1268
+index 1 char: 03 curr_long: 315.1544
+59.6096
+index 1 char: cf curr_long: 315.1544
+279.1906
+index 1 char: 45 curr_long: 315.1544
+69.167
+index 1 char: f4 curr_long: 315.1544
+65.80760000000001
+index 1 char: 1c curr_long: 315.1544
+70.0378
+index 1 char: 58 curr_long: 315.1544
+59.5338
+index 1 char: b6 curr_long: 315.1544
+66.0328
+index 1 char: fa curr_long: 315.1544
+62.856399999999994
+index 1 char: 51 curr_long: 315.1544
+61.1322
+index 1 char: 07 curr_long: 315.1544
+62.305600000000005
+index 1 char: 71 curr_long: 315.1544
+79.6578
+index 1 char: 79 curr_long: 315.1544
+61.6814
+index 1 char: 3a curr_long: 315.1544
+60.9172
+index 1 char: a7 curr_long: 315.1544
+63.013
+index 1 char: 1d curr_long: 315.1544
+65.4554
+index 1 char: 8d curr_long: 315.1544
+64.70060000000001
+index 1 char: 8a curr_long: 315.1544
+61.43679999999999
+index 1 char: 59 curr_long: 315.1544
+61.854600000000005
+index 1 char: 00 curr_long: 315.1544
+110.208
+index 1 char: 2c curr_long: 315.1544
+113.0432
+index 1 char: cd curr_long: 315.1544
+66.3994
+index 1 char: df curr_long: 315.1544
+62.9054
+index 1 char: 13 curr_long: 315.1544
+62.1542
+index 1 char: 75 curr_long: 315.1544
+62.928200000000004
+index 1 char: 29 curr_long: 315.1544
+60.663199999999996
+index 1 char: c9 curr_long: 315.1544
+64.2412
+index 1 char: ce curr_long: 315.1544
+61.2558
+index 1 char: 5e curr_long: 315.1544
+63.6432
+index 1 char: 98 curr_long: 315.1544
+61.079600000000006
+index 1 char: a3 curr_long: 315.1544
+63.6854
+index 1 char: 2a curr_long: 315.1544
+61.95799999999999
+index 1 char: 5c curr_long: 315.1544
+69.63300000000001
+index 1 char: f6 curr_long: 315.1544
+64.9278
+index 1 char: 96 curr_long: 315.1544
+94.099
+index 1 char: b4 curr_long: 315.1544
+61.6906
+index 1 char: 24 curr_long: 315.1544
+66.601
+index 1 char: dc curr_long: 315.1544
+61.697199999999995
+index 1 char: c3 curr_long: 315.1544
+58.03240000000001
+index 1 char: d7 curr_long: 315.1544
+113.4356
+index 1 char: 10 curr_long: 315.1544
+63.9226
+index 1 char: 5b curr_long: 315.1544
+64.24719999999999
+index 1 char: 21 curr_long: 315.1544
+63.00500000000001
+index 1 char: 4b curr_long: 315.1544
+65.669
+index 1 char: 17 curr_long: 315.1544
+62.933400000000006
+index 1 char: f5 curr_long: 315.1544
+72.61319999999999
+index 1 char: fc curr_long: 315.1544
+63.20279999999999
+index 1 char: 1e curr_long: 315.1544
+61.07940000000001
+index 1 char: 0b curr_long: 315.1544
+63.625800000000005
+index 1 char: 01 curr_long: 315.1544
+58.31759999999999
+index 1 char: 0e curr_long: 315.1544
+61.196000000000005
+index 1 char: de curr_long: 315.1544
+61.7698
+index 1 char: a9 curr_long: 315.1544
+61.015
+index 1 char: 41 curr_long: 315.1544
+59.8914
+index 1 char: f0 curr_long: 315.1544
+61.46079999999999
+index 1 char: b0 curr_long: 315.1544
+62.836400000000005
+index 2, guessedtag: 2b532b2b2b2b2b2b2b2b2b2b2b2b2b2b
+index 2 char: 27 curr_long: -100
+65.1054
+index 2 char: 4d curr_long: 65.1054
+57.85119999999999
+index 2 char: aa curr_long: 65.1054
+57.985
+index 2 char: 40 curr_long: 65.1054
+56.617200000000004
+index 2 char: f2 curr_long: 65.1054
+60.86659999999999
+index 2 char: 48 curr_long: 65.1054
+58.5616
+index 2 char: 9a curr_long: 65.1054
+69.50739999999999
+index 2 char: e0 curr_long: 69.50739999999999
+61.230999999999995
+index 2 char: e4 curr_long: 69.50739999999999
+64.867
+index 2 char: 2d curr_long: 69.50739999999999
+60.524
+index 2 char: 25 curr_long: 69.50739999999999
+67.3126
+index 2 char: 50 curr_long: 69.50739999999999
+61.58239999999999
+index 2 char: 3d curr_long: 69.50739999999999
+60.989200000000004
+index 2 char: 61 curr_long: 69.50739999999999
+64.4336
+index 2 char: b2 curr_long: 69.50739999999999
+63.629
+index 2 char: ad curr_long: 69.50739999999999
+68.1154
+index 2 char: db curr_long: 69.50739999999999
+59.5202
+index 2 char: 6a curr_long: 69.50739999999999
+63.0732
+index 2 char: bd curr_long: 69.50739999999999
+59.44680000000001
+index 2 char: 73 curr_long: 69.50739999999999
+60.475
+index 2 char: 82 curr_long: 69.50739999999999
+66.27459999999999
+index 2 char: 3c curr_long: 69.50739999999999
+62.258600000000015
+index 2 char: e6 curr_long: 69.50739999999999
+64.18900000000001
+index 2 char: 5f curr_long: 69.50739999999999
+82.07019999999999
+index 2 char: b7 curr_long: 82.07019999999999
+62.04299999999999
+index 2 char: cb curr_long: 82.07019999999999
+268.1188
+index 2 char: ac curr_long: 268.1188
+57.309799999999996
+index 2 char: 72 curr_long: 268.1188
+55.643600000000006
+index 2 char: 78 curr_long: 268.1188
+59.9818
+index 2 char: e9 curr_long: 268.1188
+88.2968
+index 2 char: f7 curr_long: 268.1188
+57.420399999999994
+index 2 char: 64 curr_long: 268.1188
+60.0788
+index 2 char: 0f curr_long: 268.1188
+60.370000000000005
+index 2 char: 6b curr_long: 268.1188
+60.4732
+index 2 char: 0c curr_long: 268.1188
+66.6392
+index 2 char: c8 curr_long: 268.1188
+61.907
+index 2 char: c7 curr_long: 268.1188
+72.6336
+index 2 char: f3 curr_long: 268.1188
+66.1712
+index 2 char: 53 curr_long: 268.1188
+65.21900000000001
+index 2 char: 6f curr_long: 268.1188
+71.0374
+index 2 char: a8 curr_long: 268.1188
+58.6808
+index 2 char: 92 curr_long: 268.1188
+58.51379999999999
+index 2 char: 31 curr_long: 268.1188
+61.31419999999999
+index 2 char: 6d curr_long: 268.1188
+64.1258
+index 2 char: 1b curr_long: 268.1188
+62.8418
+index 2 char: 32 curr_long: 268.1188
+60.55159999999999
+index 2 char: d0 curr_long: 268.1188
+64.059
+index 2 char: 65 curr_long: 268.1188
+59.4798
+index 2 char: d5 curr_long: 268.1188
+64.68
+index 2 char: b3 curr_long: 268.1188
+63.8298
+index 2 char: 35 curr_long: 268.1188
+61.552200000000006
+index 2 char: 39 curr_long: 268.1188
+60.5524
+index 2 char: b1 curr_long: 268.1188
+60.705200000000005
+index 2 char: 95 curr_long: 268.1188
+61.00020000000001
+index 2 char: a6 curr_long: 268.1188
+58.3356
+index 2 char: 8c curr_long: 268.1188
+63.0256
+index 2 char: 42 curr_long: 268.1188
+60.5538
+index 2 char: 9b curr_long: 268.1188
+65.2122
+index 2 char: 89 curr_long: 268.1188
+59.299400000000006
+index 2 char: b5 curr_long: 268.1188
+64.6934
+index 2 char: c5 curr_long: 268.1188
+63.37180000000001
+index 2 char: 87 curr_long: 268.1188
+59.03240000000001
+index 2 char: 7e curr_long: 268.1188
+58.4298
+index 2 char: 97 curr_long: 268.1188
+55.78439999999999
+index 2 char: ed curr_long: 268.1188
+61.324
+index 2 char: ff curr_long: 268.1188
+60.833000000000006
+index 2 char: 2e curr_long: 268.1188
+65.6918
+index 2 char: a0 curr_long: 268.1188
+63.15160000000001
+index 2 char: d6 curr_long: 268.1188
+64.28
+index 2 char: 7f curr_long: 268.1188
+67.8268
+index 2 char: d8 curr_long: 268.1188
+62.402
+index 2 char: d4 curr_long: 268.1188
+58.124
+index 2 char: 46 curr_long: 268.1188
+61.647400000000005
+index 2 char: 85 curr_long: 268.1188
+66.6774
+index 2 char: 4f curr_long: 268.1188
+71.5764
+index 2 char: 55 curr_long: 268.1188
+63.617000000000004
+index 2 char: eb curr_long: 268.1188
+60.22180000000001
+index 2 char: 6c curr_long: 268.1188
+61.0332
+index 2 char: 69 curr_long: 268.1188
+60.507600000000004
+index 2 char: fd curr_long: 268.1188
+60.801199999999994
+index 2 char: ab curr_long: 268.1188
+62.27900000000001
+index 2 char: 84 curr_long: 268.1188
+61.93739999999999
+index 2 char: 0d curr_long: 268.1188
+59.053200000000004
+index 2 char: af curr_long: 268.1188
+62.766200000000005
+index 2 char: 9e curr_long: 268.1188
+58.9966
+index 2 char: a1 curr_long: 268.1188
+62.6426
+index 2 char: 4a curr_long: 268.1188
+56.058400000000006
+index 2 char: 88 curr_long: 268.1188
+61.80999999999999
+index 2 char: cc curr_long: 268.1188
+56.3326
+index 2 char: 38 curr_long: 268.1188
+60.812
+index 2 char: a2 curr_long: 268.1188
+60.200199999999995
+index 2 char: c4 curr_long: 268.1188
+61.638200000000005
+index 2 char: fe curr_long: 268.1188
+61.5182
+index 2 char: 43 curr_long: 268.1188
+61.249
+index 2 char: ec curr_long: 268.1188
+60.83240000000001
+index 2 char: d2 curr_long: 268.1188
+60.2152
+index 2 char: c0 curr_long: 268.1188
+60.1442
+index 2 char: d9 curr_long: 268.1188
+62.632000000000005
+index 2 char: 56 curr_long: 268.1188
+63.443999999999996
+index 2 char: 62 curr_long: 268.1188
+60.75
+index 2 char: 91 curr_long: 268.1188
+60.53420000000001
+index 2 char: 74 curr_long: 268.1188
+63.2918
+index 2 char: 94 curr_long: 268.1188
+65.659
+index 2 char: c2 curr_long: 268.1188
+65.569
+index 2 char: bf curr_long: 268.1188
+61.4326
+index 2 char: f1 curr_long: 268.1188
+61.2116
+index 2 char: 22 curr_long: 268.1188
+62.2768
+index 2 char: f8 curr_long: 268.1188
+62.85020000000001
+index 2 char: ca curr_long: 268.1188
+60.5816
+index 2 char: 2b curr_long: 268.1188
+62.3976
+index 2 char: f9 curr_long: 268.1188
+62.129200000000004
+index 2 char: 83 curr_long: 268.1188
+64.4316
+index 2 char: 37 curr_long: 268.1188
+67.35940000000001
+index 2 char: 6e curr_long: 268.1188
+72.7418
+index 2 char: 76 curr_long: 268.1188
+64.9528
+index 2 char: c1 curr_long: 268.1188
+62.11900000000001
+index 2 char: d1 curr_long: 268.1188
+60.489200000000004
+index 2 char: 28 curr_long: 268.1188
+57.697
+index 2 char: 77 curr_long: 268.1188
+60.23600000000001
+index 2 char: 3b curr_long: 268.1188
+60.55740000000001
+index 2 char: 9d curr_long: 268.1188
+57.000800000000005
+index 2 char: 99 curr_long: 268.1188
+60.282000000000004
+index 2 char: 9c curr_long: 268.1188
+57.86319999999999
+index 2 char: a4 curr_long: 268.1188
+57.4938
+index 2 char: 1f curr_long: 268.1188
+58.7072
+index 2 char: 66 curr_long: 268.1188
+66.09740000000001
+index 2 char: ae curr_long: 268.1188
+65.9228
+index 2 char: ee curr_long: 268.1188
+57.96220000000001
+index 2 char: 93 curr_long: 268.1188
+59.7342
+index 2 char: 04 curr_long: 268.1188
+60.799400000000006
+index 2 char: 3e curr_long: 268.1188
+67.29319999999998
+index 2 char: 4e curr_long: 268.1188
+105.66399999999999
+index 2 char: 3f curr_long: 268.1188
+69.48599999999999
+index 2 char: 5d curr_long: 268.1188
+61.036
+index 2 char: 15 curr_long: 268.1188
+64.4038
+index 2 char: 05 curr_long: 268.1188
+62.4496
+index 2 char: ea curr_long: 268.1188
+61.89739999999999
+index 2 char: 90 curr_long: 268.1188
+66.2758
+index 2 char: c6 curr_long: 268.1188
+62.5826
+index 2 char: 7b curr_long: 268.1188
+58.4808
+index 2 char: fb curr_long: 268.1188
+62.7334
+index 2 char: 81 curr_long: 268.1188
+60.220600000000005
+index 2 char: 57 curr_long: 268.1188
+60.39200000000001
+index 2 char: 08 curr_long: 268.1188
+61.2334
+index 2 char: b8 curr_long: 268.1188
+63.0256
+index 2 char: e3 curr_long: 268.1188
+61.1856
+index 2 char: 68 curr_long: 268.1188
+60.4092
+index 2 char: 09 curr_long: 268.1188
+63.3704
+index 2 char: ba curr_long: 268.1188
+62.9378
+index 2 char: 60 curr_long: 268.1188
+62.6182
+index 2 char: 63 curr_long: 268.1188
+62.6408
+index 2 char: 2f curr_long: 268.1188
+63.879
+index 2 char: 67 curr_long: 268.1188
+58.0428
+index 2 char: e7 curr_long: 268.1188
+61.38680000000001
+index 2 char: bc curr_long: 268.1188
+61.3018
+index 2 char: 52 curr_long: 268.1188
+70.3144
+index 2 char: 02 curr_long: 268.1188
+65.61380000000001
+index 2 char: 26 curr_long: 268.1188
+62.687400000000004
+index 2 char: 30 curr_long: 268.1188
+63.90840000000001
+index 2 char: da curr_long: 268.1188
+62.9446
+index 2 char: e2 curr_long: 268.1188
+63.71640000000001
+index 2 char: 47 curr_long: 268.1188
+58.51679999999999
+index 2 char: 19 curr_long: 268.1188
+61.205
+index 2 char: 34 curr_long: 268.1188
+60.64459999999999
+index 2 char: 16 curr_long: 268.1188
+65.81620000000001
+index 2 char: 7c curr_long: 268.1188
+68.89059999999999
+index 2 char: 7d curr_long: 268.1188
+64.999
+index 2 char: 8e curr_long: 268.1188
+60.5406
+index 2 char: 36 curr_long: 268.1188
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 159, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 171, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f86c4eb8460>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='dart.cse.kau.se', port=12345): Max retries exceeded with url: /auth/100/axelalvi/2b53362b2b2b2b2b2b2b2b2b2b2b2b2b (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f86c4eb8460>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/lukas/OneDrive/Universitetet/Datorsäkerhet 2/lab/LabTimingAttacks/hax.py", line 85, in <module>
+    rq_time = avg_rsp_time((url + newtag), 5)
+  File "/mnt/c/Users/lukas/OneDrive/Universitetet/Datorsäkerhet 2/lab/LabTimingAttacks/hax.py", line 20, in avg_rsp_time
+    response = requests.get(url)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='dart.cse.kau.se', port=12345): Max retries exceeded with url: /auth/100/axelalvi/2b53362b2b2b2b2b2b2b2b2b2b2b2b2b (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f86c4eb8460>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+
+
+avrage 5
