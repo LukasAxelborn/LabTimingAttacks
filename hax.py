@@ -5,8 +5,6 @@ import urllib.parse
 
 import requests
 
-#
-
 
 def listtostring(s):
     return (''.join([str(elem) for elem in s]))
@@ -15,19 +13,27 @@ def listtostring(s):
 def min_rsp_time(url, runs):
     min = 1000000000000
     for i in range(runs):
-        #t0 = time.time()
         # make request
         response = requests.get(url)
-        #t1 = time.time()
         rsp_time = response.elapsed.total_seconds() * 1000
         if rsp_time < min:
             min = rsp_time
     return min
 
+#make multiple rq & return avg rsp time
+def avg_rsp_time(url, runs):
+    total = 0
+    for i in range(runs):
+        # make request
+        response = requests.get(url)
+        total += response.elapsed.total_seconds() * 1000
+
+    return total / runs
+
 #charlist = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q',
 #            'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
 
-charlist = ['a', 'b', 'c', 'd', 'e', 'f', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
+charlist = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f']
 #url = 'http://dart.cse.kau.se:12345/auth/100/axelalvi/'
 
 delay = 99
@@ -35,14 +41,17 @@ name = "axelalvi"
 
 url = "http://dart.cse.kau.se:12345/auth/" + str(delay) + "/" + name + "/"
 
-hexfinnishlist = []
+hexlist = []
 
 for i in charlist:
     for j in charlist:
-        hexfinnishlist.append(f"{i}{j}")
+        hexlist.append(f"{i}{j}")
 
-hexlist = list(set(hexfinnishlist))
-general_rsp_time = 50
+#get avg rsp to add to intervals
+print(url + ("0" * 32))
+general_rsp_time = avg_rsp_time(url + ("0" * 32), 20)
+print(general_rsp_time)
+time.sleep(2)
 
 while(True):
 
@@ -66,12 +75,12 @@ while(True):
     #curr_first will now be the first hex in tag
 
 
-    guessedtag = [curr_first] * 15
+    guessedtag = [curr_first] * 16
     besthex = ""
     wrong_guess = False
 
     i = 1
-    while i < len(guessedtag):
+    while i < len(guessedtag) - 1:
     #for i in range(1,len(guessedtag)):
         #if rq_time is less than i * delay, we know we guessed wrong and want to try previous i again
         if wrong_guess is True:
@@ -122,14 +131,15 @@ while(True):
         guessedtag[i] = besthex
         i += 1
 
-    #brute force last hex until response is 200
-    for i in range(len(hexlist)):
-        re = requests.get(url + listtostring(guessedtag) + hexlist[i])
-        print("Testing: " + url + listtostring(guessedtag) + hexlist[i])
-        if str(re) == "<Response [200]>":
-            print("OK! Correct: " + url + listtostring(guessedtag) + hexlist[i])
-            guessedtag.append(hexlist[i])
-            break
+    if i > 14:
+        #brute force last hex until response is 200
+        for hex in hexlist:
+            guessedtag[15] = hex
+            re = requests.get(url + listtostring(guessedtag))
+            print("Testing: " + url + listtostring(guessedtag))
+            if str(re) == "<Response [200]>":
+                print("OK! Correct: " + url + listtostring(guessedtag))
+                break
     
     print(listtostring(guessedtag))
 
