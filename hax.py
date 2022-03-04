@@ -14,8 +14,10 @@ delay_interval = 5
 
 charlist = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f']
 
-delay = 10
-name = "lukaaxel"
+#user input
+
+name = input("Enter KauID(no numbers): ")
+delay = int(input("Enter start delay(1-200): "))
 
 url = "http://dart.cse.kau.se:12345/auth/" + str(delay) + "/" + name + "/"
 
